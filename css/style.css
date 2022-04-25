@@ -144,7 +144,7 @@ nav .fa {
   }
 }
 
-.course {
+.guide {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -170,7 +170,7 @@ p {
   justify-content: space-between;
 }
 
-.course-col {
+.guide-col {
   flex-basis: 31%;
   background: #fff3f3;
   border-radius: 10px;
@@ -185,7 +185,7 @@ h3 {
   margin: 10px 0;
 }
 
-.course-col:hover {
+.guide-col:hover {
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
@@ -326,4 +326,76 @@ input, textarea {
   border: 1px solid #ccc;
   box-sizing: border-box;
   resize: none;
+}
+
+.career-path {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.career-left {
+  flex-basis: 60%;
+}
+
+.career-left h2 {
+  color: #222;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.career-left p {
+  color: #999;
+  padding: 0;
+}
+
+table {
+  margin-top: 100px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #f44336;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+}
+
+table a {
+  text-decoration: none;
+}
+
+table td {
+  text-align: center;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #999;
+}
+
+.career-right {
+  flex-basis: 35%;
+}
+
+.career-right h3 {
+  background: #f44336;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.career-right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.career-right img {
+  width: 100%;
+  margin-top: 100px;
 }
