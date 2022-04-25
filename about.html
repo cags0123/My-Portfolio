@@ -1,0 +1,97 @@
+<!--
+Name: Christian Sandoval
+File: about.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Christians' Portfolio | About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="career.html">CAREER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+        <h1>About Me</h1>
+    </section>
+
+<!-- ABOUT ME BODY-->
+
+    <section class="about-me">
+      <div class="row">
+        <div class="about-col">
+          <img src="images/selfie.jpg">
+        </div>
+        <div class="about-col">
+          <h1>Learn more</h1>
+          <p>Hey there, my name is Christian. I am 18 years old, born and raised in upstate New York.
+            I am the youngest out of three siblings. I am a huge car enthusiast and enjoy learning about
+            japenese culture. In my spare time I enjoy watching anime, and playing video games with
+            friends such as Call of Duty and Valorant. I also enjoy watching/playing soccer and football
+            and enjoy collecting shoes, from classics to modern.</p>
+          <p>I attended high school at Fallsburg Junior Senior High and graduated in June of 2021.
+            Currently I am a freshman at SUNY Sullivan Community College in upstate New York,
+            working towards a degree in Computer Science. As of September 2022 I will start my
+            second year of college in pursuit of a degree. For the future, I hope to move from New York
+            and explore different places and hopefully graduate college with a Bachelor's or Master's
+            in Computer Science.</p>
+        </div>
+      </div>
+    </section>
+
+<!-- FOOTER -->
+
+    <section class="footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Address</h4>
+          <p>Christian Sandoval<br>
+            112 College Road<br>
+            Loch Sheldrake, NY 12579</p>
+        </div>
+        <div class="footer-col">
+          <h4>Email</h4>
+          <p>For any inquiries email<br>
+          <a href="mialto:cg0123@sunysullivan.edu">cg0123@sunysullivan.edu</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Phone</h4>
+          <p>+1 (845)-123-4567<br>
+          Monday-Friday, 9AM to 5PM</p>
+        </div>
+    </section>
+
+    <section class="copyright">
+        <p>&copy; Copyright. Developed by Christian Sandoval</p>
+    </section>
+
+<!-- JAVASCRIPT -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>
